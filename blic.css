@@ -1,0 +1,121 @@
+@font-face{
+	font-family: "Evolventa";
+	src: url(10359.ttf)
+}
+body{
+	padding: 0;
+	margin: 0;
+	font-family: "Evolventa";
+}
+
+aside{
+	background: orange;
+	width:100px;
+	height: 100vh;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	color:black;
+	box-shadow: 10px 0px 4px rgb(196, 70, 21);
+	z-index: 2;
+}
+aside .blitz{
+	transform: rotate(-90deg);
+	margin-left:10px;
+	font-weight: bold;
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	transition: 0.2s ease-in-out
+}
+aside i{
+	transform: scale(3) translate(4px,-28px);
+	transition: 0.2s ease-in-out;
+}
+aside span{
+	width: 100%;
+	transform: rotate(-90deg);
+	display: flex;
+	align-items: center;
+}
+aside .social{
+	margin:10px;
+	font-weight: bold;
+	transition: 0.2s ease-in-out;
+	border-bottom:dashed 1px black;
+	width:100px;
+}
+
+aside p:hover{
+	color:white;
+}
+aside i:hover{
+	color:white;
+}
+svg{
+	position: fixed;
+	left:80px;
+	top:40%;
+	height: 300px;
+	z-index: 100;
+}
+.shadow-trapezium{
+	z-index: 1;
+	filter: blur(1px);
+}
+.section{
+	text-align: center;
+}
+.section h2{
+	font-size: 50px;
+	text-shadow: 3px 3px 4px rgb(196, 70, 21);
+	text-transform: uppercase;
+	color:orange;
+}
+#section1{
+	background: url(apple1.jpg);
+	background-size: cover;
+	background-position: 80% 50%
+}
+#section2 .slide:nth-child(1){
+	background: url(bg2.jpg);
+	background-size: cover
+}
+#section2 .slide:nth-child(2){
+	background: url(bg3.jpg);
+	background-size: cover
+}
+#section2 .slide:nth-child(3){
+	background: url(bg4.jpg);
+	background-size: cover
+}
+#section2 .slide:nth-child(4){
+	background: url(bg5.jpg);
+	background-size: cover
+}
+#section2 .slide h1{
+	font-size: 50px;
+	text-shadow: 3px 3px 4px rgb(196, 70, 21);
+	text-transform: uppercase;
+	color:orange;
+}
+#section2 .slide p{
+	color:orange;
+	font-size: 25px;
+	text-shadow:2px 2px 2px rgb(196, 70, 21);
+	margin-left:auto;
+	margin-right: auto;
+	max-width: 80vw
+}
+#section3{
+	background: url(apple4.jpg);
+	background-size: cover;
+	background-position: 50% 50%
+}
+#section4{
+	background: url(apple2.jpg);
+	background-size: cover;
+	background-position: 50% 50%
+}
